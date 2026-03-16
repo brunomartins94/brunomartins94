@@ -2,7 +2,7 @@
 
 ### Engenheiro de Dados & Desenvolvedor | Python · dbt · Airflow · DuckDB · Unity · Unreal
 
-Apaixonado por transformar dados em insights reais — seja em pipelines eleitorais ou na telemetria de jogos.
+Apaixonado por transformar dados em insights reais 
 
 ---
 
