@@ -4,7 +4,19 @@ Desenvolvo pipelines de dados confiáveis para transformar fontes públicas e op
 
 **Tecnologias:** Python, SQL, dbt, Apache Airflow, DuckDB, PostgreSQL, Docker e GitHub Actions.
 
-## Projeto em destaque
+## Projetos em destaque
+
+### [Public API to S3 Landing Zone](https://github.com/brunomartins94/public-api-s3-landing)
+
+Landing zone incremental para uma API pública, com persistência de dados brutos no Amazon S3 antes de qualquer transformação.
+
+- Extrai uma API paginada com **Python, Requests e Boto3**.
+- Grava JSON particionado por data de ingestão e página.
+- Evita duplicação em reexecuções com chaves determinísticas.
+- Provisiona S3 privado, criptografado e versionado com **Terraform**.
+- Executa pipeline, testes, AWS CLI e Terraform com **Docker Compose**.
+
+📚 [Nota técnica: da API pública ao S3](https://brunomartins94.github.io/notas/api-s3-landing-zone/)
 
 ### [Observatório Eleitoral 2026](https://github.com/brunomartins94/observatorio-eleitoral-2026)
 
