@@ -14,8 +14,8 @@ Cada área tem seus próprios projetos e desafios. Aqui compartilho código, dec
 
 Desenvolvo soluções de software, da interface às regras e integrações necessárias para o produto funcionar.
 
-- [Site principal](https://brunomartins94.github.io/personal_site/): apresentação profissional, projetos e jogos disponíveis para jogar no navegador.
-- [Blog técnico](https://brunomartins94.github.io/): notas técnicas e artigos sobre projetos e decisões de desenvolvimento de software, games e engenharia de dados.
+- <a href="https://brunomartins94.github.io/personal_site/" target="_blank" rel="noopener noreferrer">Site principal</a>: apresentação profissional, projetos e jogos disponíveis para jogar no navegador.
+- <a href="https://brunomartins94.github.io/" target="_blank" rel="noopener noreferrer">Blog técnico</a>: notas técnicas e artigos sobre projetos e decisões de desenvolvimento de software, games e engenharia de dados.
 
 ## Engenharia de dados — projetos em destaque
 
@@ -79,7 +79,7 @@ Pipeline end-to-end de dados públicos do TSE para análise eleitoral brasileira
 
 Desenvolvo games como uma área própria de atuação. Crio experiências para navegador, trabalhando em regras, controles, adversários, progressão e apresentação visual.
 
-### [Jogar Orbital.io](https://brunomartins94.github.io/personal_site/jogos/orbital/)
+### <a href="https://brunomartins94.github.io/personal_site/jogos/orbital/" target="_blank" rel="noopener noreferrer">Jogar Orbital.io</a>
 
 Arena espacial single player para navegador: colete recursos, cresça e dispute espaço com nove bots. Todos começam com zero pontos e a dificuldade altera o comportamento dos adversários.
 
@@ -87,7 +87,7 @@ Arena espacial single player para navegador: colete recursos, cresça e dispute 
 - Três dificuldades, colisões, power-ups, skins e suporte a múltiplos idiomas.
 - Interface responsiva para mouse e toque.
 
-### [Jogar Primal Clash](https://brunomartins94.github.io/personal_site/jogos/primal-clash/)
+### <a href="https://brunomartins94.github.io/personal_site/jogos/primal-clash/" target="_blank" rel="noopener noreferrer">Jogar Primal Clash</a>
 
 Campanha de estratégia em tempo real para navegador, baseada em recrutamento de tropas, gestão de recursos e progressão por fases.
 
@@ -95,7 +95,7 @@ Campanha de estratégia em tempo real para navegador, baseada em recrutamento de
 - Cinco fases, melhorias permanentes, dificuldades e progresso salvo localmente.
 - Regras de combate e progressão cobertas por testes automatizados.
 
-🎮 [Ver a vitrine visual dos jogos](https://brunomartins94.github.io/jogos/)
+🎮 <a href="https://brunomartins94.github.io/personal_site/#jogos" target="_blank" rel="noopener noreferrer">Ver a vitrine visual dos jogos</a>
 
 Os games têm seus próprios objetivos de jogabilidade e experiência, com projetos apresentados nesta seção.
 
@@ -103,4 +103,4 @@ Os games têm seus próprios objetivos de jogabilidade e experiência, com proje
 
 Projetos de sistemas, apps, sites, games e engenharia de dados.
 
-[LinkedIn](https://www.linkedin.com/in/bruno-martins-a6289212b/) · [GitHub](https://github.com/brunomartins94)
+<a href="https://www.linkedin.com/in/bruno-martins-a6289212b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
