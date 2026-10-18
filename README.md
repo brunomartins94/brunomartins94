@@ -95,8 +95,6 @@ Campanha de estratégia em tempo real para navegador, baseada em recrutamento de
 - Cinco fases, melhorias permanentes, dificuldades e progresso salvo localmente.
 - Regras de combate e progressão cobertas por testes automatizados.
 
-🎮 <a href="https://brunomartins94.github.io/personal_site/#jogos" target="_blank" rel="noopener noreferrer">Ver a vitrine visual dos jogos</a>
-
 Os games têm seus próprios objetivos de jogabilidade e experiência, com projetos apresentados nesta seção.
 
 ## Contato
