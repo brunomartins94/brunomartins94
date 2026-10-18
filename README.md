@@ -18,6 +18,30 @@ Landing zone incremental para uma API pública, com persistência de dados bruto
 
 📚 [Nota técnica: da API pública ao S3](https://brunomartins94.github.io/notas/api-s3-landing-zone/)
 
+### [S3 Raw JSON to Parquet](https://github.com/brunomartins94/s3-raw-to-parquet)
+
+Transformação da camada raw em JSON para Parquet particionado, criada para diminuir o volume de armazenamento e permitir consultas analíticas sobre dados já preservados no S3.
+
+- Lê dados raw no **Amazon S3** e valida um esquema explícito com **PyArrow**.
+- Grava Parquet comprimido e particionado por data de ingestão.
+- Consulta o resultado com **DuckDB**, sem nova chamada à API de origem.
+- Demonstrou redução de **79,12%**: 44.708 bytes de JSON para 9.333 bytes de Parquet.
+- Impede uma nova gravação quando o arquivo da data já existe.
+
+📚 [Nota técnica: do JSON bruto ao Parquet](https://brunomartins94.github.io/notas/s3-raw-json-para-parquet/)
+
+### [Parquet to Star Schema](https://github.com/brunomartins94/parquet-to-star-schema)
+
+Modelo dimensional construído sobre a camada Parquet para dar uma definição comum a métricas de cobertura, categoria, localização e status.
+
+- Modela `dim_date`, `dim_brewery`, `dim_brewery_type`, `dim_location` e `fact_brewery_snapshot`.
+- Documenta o grão da fato: uma cervejaria observada por data de ingestão.
+- Cria marts em Parquet no **Amazon S3** e consulta as relações com **DuckDB**.
+- Processou **100 registros**, incluindo **58** microcervejarias, **26** brewpubs e **4** registros encerrados.
+- Valida transformação e consulta com **3 testes no Docker**.
+
+📚 [Nota técnica: do Parquet ao modelo estrela](https://brunomartins94.github.io/notas/parquet-para-modelo-estrela/)
+
 ### [Observatório Eleitoral 2026](https://github.com/brunomartins94/observatorio-eleitoral-2026)
 
 Pipeline end-to-end de dados públicos do TSE para análise eleitoral brasileira.
@@ -38,17 +62,29 @@ Pipeline end-to-end de dados públicos do TSE para análise eleitoral brasileira
 | Qualidade | Testes dbt, validações de esquema, métricas de completude e documentação |
 | Entrega | Docker, GitHub Actions, dashboards e datasets voltados ao consumidor |
 
-## Repertório complementar: desenvolvimento de jogos
+## Repertório complementar: jogos autorais
 
-Engenharia de Dados é minha atuação principal. Desenvolvimento de jogos é uma especialidade complementar, especialmente na conexão entre instrumentação, telemetria e comportamento de jogadores. Esse repertório é útil em produtos interativos e times de games.
+Engenharia de Dados é minha atuação principal. Também desenvolvo jogos como projetos autorais, uma prática complementar de produto interativo que envolve regras, experiência de uso, progressão e operação.
 
-| Área | Tecnologias e interesses |
-| --- | --- |
-| Desenvolvimento | Unity, Unreal Engine, C#, C++ e Lua |
-| Analytics de jogos | Telemetria de eventos, retenção, progressão e comportamento de jogadores |
-| Pontes com dados | Instrumentação de eventos, pipelines de gameplay analytics e métricas de produto |
+### [Orbital.io](https://github.com/brunomartins94/orbital.io)
 
-No meu site pessoal, o laboratório técnico inclui uma aplicação de telemetria de jogos com eventos, streaming e métricas de retenção.
+Arena espacial multiplayer para navegador. Jogadores coletam recursos, crescem e disputam espaço em uma simulação conduzida pelo servidor.
+
+- Canvas nativo, Node.js e WebSocket.
+- Simulação autoritativa, colisões, power-ups, skins e suporte a múltiplos idiomas.
+- Interface responsiva para mouse e toque.
+
+### [Primal Clash](https://github.com/brunomartins94/Primal-Clash)
+
+Campanha de estratégia em tempo real para navegador, baseada em recrutamento de tropas, gestão de recursos e progressão por fases.
+
+- JavaScript sem framework de produção e execução inteiramente no navegador.
+- Cinco fases, melhorias permanentes, dificuldades e progresso salvo localmente.
+- Regras de combate e progressão cobertas por testes automatizados.
+
+🎮 [Ver a vitrine visual dos jogos](https://brunomartins94.github.io/jogos/)
+
+Esse repertório também conversa com engenharia de dados em cenários de telemetria, retenção, progressão e comportamento de jogadores.
 
 ## Contato
 
