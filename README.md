@@ -14,8 +14,8 @@ Cada área tem seus próprios projetos e desafios. Aqui compartilho código, dec
 
 Desenvolvo soluções de software, da interface às regras e integrações necessárias para o produto funcionar.
 
-- [Site pessoal](https://brunomartins94.github.io/personal_site/): apresentação das três áreas de atuação e jogos disponíveis para jogar no navegador.
-- [Blog técnico](https://brunomartins94.github.io/): notas sobre projetos e decisões de desenvolvimento de software, games e engenharia de dados.
+- [Site principal](https://brunomartins94.github.io/personal_site/): apresentação profissional, projetos e jogos disponíveis para jogar no navegador.
+- [Blog técnico](https://brunomartins94.github.io/): notas técnicas e artigos sobre projetos e decisões de desenvolvimento de software, games e engenharia de dados.
 
 ## Engenharia de dados — projetos em destaque
 
