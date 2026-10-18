@@ -14,7 +14,7 @@ Cada área tem seus próprios projetos e desafios. Aqui compartilho código, dec
 
 Desenvolvo soluções de software, da interface às regras e integrações necessárias para o produto funcionar.
 
-- [Site pessoal](https://github.com/brunomartins94/personal_site): apresentação das três áreas de atuação e Orbital.io jogável no navegador.
+- [Site pessoal](https://brunomartins94.github.io/personal_site/): apresentação das três áreas de atuação e jogos disponíveis para jogar no navegador.
 - [Blog técnico](https://brunomartins94.github.io/): notas sobre projetos e decisões de desenvolvimento de software, games e engenharia de dados.
 
 ## Engenharia de dados — projetos em destaque
@@ -79,7 +79,7 @@ Pipeline end-to-end de dados públicos do TSE para análise eleitoral brasileira
 
 Desenvolvo games como uma área própria de atuação. Crio experiências para navegador, trabalhando em regras, controles, adversários, progressão e apresentação visual.
 
-### [Orbital.io](https://github.com/brunomartins94/orbital.io)
+### [Jogar Orbital.io](https://brunomartins94.github.io/personal_site/jogos/orbital/)
 
 Arena espacial single player para navegador: colete recursos, cresça e dispute espaço com nove bots. Todos começam com zero pontos e a dificuldade altera o comportamento dos adversários.
 
@@ -87,7 +87,7 @@ Arena espacial single player para navegador: colete recursos, cresça e dispute 
 - Três dificuldades, colisões, power-ups, skins e suporte a múltiplos idiomas.
 - Interface responsiva para mouse e toque.
 
-### [Primal Clash](https://github.com/brunomartins94/Primal-Clash)
+### [Jogar Primal Clash](https://brunomartins94.github.io/personal_site/jogos/primal-clash/)
 
 Campanha de estratégia em tempo real para navegador, baseada em recrutamento de tropas, gestão de recursos e progressão por fases.
 
