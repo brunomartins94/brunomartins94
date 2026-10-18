@@ -1,10 +1,23 @@
-# Bruno Martins | Engenheiro de Dados
+# Bruno Martins | Desenvolvimento de Software, Games e Engenharia de Dados
 
-Desenvolvo pipelines de dados confiáveis para transformar fontes públicas e operacionais em datasets claros, rastreáveis e prontos para análise.
+Atuo em três frentes:
 
-**Tecnologias:** Python, SQL, dbt, Apache Airflow, DuckDB, PostgreSQL, Docker e GitHub Actions.
+- **Desenvolvimento de software:** sistemas, aplicativos, sites e integrações para diferentes necessidades.
+- **Desenvolvimento de games:** jogos autorais, mecânicas, interfaces, adversários e progressão.
+- **Engenharia de dados:** pipelines, modelagem, automação e qualidade de dados.
 
-## Projetos em destaque
+Cada área tem seus próprios projetos e desafios. Aqui compartilho código, decisões técnicas e resultados.
+
+**Tecnologias:** JavaScript, HTML, CSS, Canvas, Python, SQL, dbt, Apache Airflow, DuckDB, PostgreSQL, Docker e GitHub Actions.
+
+## Sistemas, aplicativos e sites
+
+Desenvolvo soluções de software, da interface às regras e integrações necessárias para o produto funcionar.
+
+- [Site pessoal](https://github.com/brunomartins94/personal_site): apresentação das três áreas de atuação e Orbital.io jogável no navegador.
+- [Blog técnico](https://brunomartins94.github.io/): notas sobre projetos e decisões de desenvolvimento de software, games e engenharia de dados.
+
+## Engenharia de dados — projetos em destaque
 
 ### [Public API to S3 Landing Zone](https://github.com/brunomartins94/public-api-s3-landing)
 
@@ -53,7 +66,7 @@ Pipeline end-to-end de dados públicos do TSE para análise eleitoral brasileira
 
 > Um bom pipeline não termina ao carregar os dados: ele deixa claro de onde vieram, como foram transformados e se ainda podem ser confiados.
 
-## Como trabalho
+## Práticas em engenharia de dados
 
 | Camada | Práticas e ferramentas |
 | --- | --- |
@@ -62,16 +75,16 @@ Pipeline end-to-end de dados públicos do TSE para análise eleitoral brasileira
 | Qualidade | Testes dbt, validações de esquema, métricas de completude e documentação |
 | Entrega | Docker, GitHub Actions, dashboards e datasets voltados ao consumidor |
 
-## Repertório complementar: jogos autorais
+## Desenvolvimento de games
 
-Engenharia de Dados é minha atuação principal. Também desenvolvo jogos como projetos autorais, uma prática complementar de produto interativo que envolve regras, experiência de uso, progressão e operação.
+Desenvolvo games como uma área própria de atuação. Crio experiências para navegador, trabalhando em regras, controles, adversários, progressão e apresentação visual.
 
 ### [Orbital.io](https://github.com/brunomartins94/orbital.io)
 
-Arena espacial multiplayer para navegador. Jogadores coletam recursos, crescem e disputam espaço em uma simulação conduzida pelo servidor.
+Arena espacial single player para navegador: colete recursos, cresça e dispute espaço com nove bots. Todos começam com zero pontos e a dificuldade altera o comportamento dos adversários.
 
-- Canvas nativo, Node.js e WebSocket.
-- Simulação autoritativa, colisões, power-ups, skins e suporte a múltiplos idiomas.
+- Canvas nativo, JavaScript e simulação local em Web Worker, sem servidor multiplayer.
+- Três dificuldades, colisões, power-ups, skins e suporte a múltiplos idiomas.
 - Interface responsiva para mouse e toque.
 
 ### [Primal Clash](https://github.com/brunomartins94/Primal-Clash)
@@ -84,8 +97,10 @@ Campanha de estratégia em tempo real para navegador, baseada em recrutamento de
 
 🎮 [Ver a vitrine visual dos jogos](https://brunomartins94.github.io/jogos/)
 
-Esse repertório também conversa com engenharia de dados em cenários de telemetria, retenção, progressão e comportamento de jogadores.
+Os games têm seus próprios objetivos de jogabilidade e experiência, com projetos apresentados nesta seção.
 
 ## Contato
+
+Projetos de sistemas, apps, sites, games e engenharia de dados.
 
 [LinkedIn](https://www.linkedin.com/in/bruno-martins-a6289212b/) · [GitHub](https://github.com/brunomartins94)
